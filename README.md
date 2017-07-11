@@ -4,3 +4,4 @@ We have designed the database tables and stored procedure, and implemented the s
 implemented the sign-in and logout functions
 create the back end and front end required for a user to add and display bucket list items
 implement the Edit and Delete function
+create a uml class diagram for the bucketlist
