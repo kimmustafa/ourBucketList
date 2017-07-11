@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Unauthorized Access:: BucketList{% endblock %}
+{% block content %}
+
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="#">Home</a>
+                    </li>
+                    <li role="presentation"><a href="/signin">Sign In</a>
+                    </li>
+                    <li role="presentation"><a href="/signUp">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">BucketList</h3>
+        </div>
+
+
+            <h3>{{error}}</h3>
+
+
+{% endblock %}
